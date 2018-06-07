@@ -41,4 +41,5 @@ We use the general solution of NMF to solve the optimization function. To ensure
 ![pic5](https://github.com/TonghaiHe/Intelligent-Home-Electricity-Behavior-Analysis-Method-Based-on-Power-Consumption-Model-Constraints/blob/master/Picture/pic5.png)
 ![pic6](https://github.com/TonghaiHe/Intelligent-Home-Electricity-Behavior-Analysis-Method-Based-on-Power-Consumption-Model-Constraints/blob/master/Picture/pic6.png)
 
+If you want to learn more details of this algorithm, please click here [http://********](http://www.baidu.com) to view the full paper.
 
