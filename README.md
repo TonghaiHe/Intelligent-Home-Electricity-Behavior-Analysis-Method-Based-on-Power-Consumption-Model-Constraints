@@ -16,7 +16,7 @@ The basic schematic of this algorithm is shown below.
 ![image](https://github.com/TonghaiHe/Intelligent-Home-Electricity-Behavior-Analysis-Method-Based-on-Power-Consumption-Model-Constraints/blob/master/Picture/pic1.png)
 The entire decomposition process of the algorithm is divided into two steps. 
 
-The first step is the matrix coordination training module. According to the target formula, the training data matrix $$X_i$$ is decomposed into sub-matrix Bi and Ai, the test matrix G is decomposed into Bi and Wi in the same way. It should be noted that the first two decompositions are performed synchronously. Where i = 1,…,k; indicates different types of appliances, Bi in the two decompositions is the same matrix. 
+The first step is the matrix coordination training module. According to the target formula, the training data matrix $X_i$ is decomposed into sub-matrix Bi and Ai, the test matrix G is decomposed into Bi and Wi in the same way. It should be noted that the first two decompositions are performed synchronously. Where i = 1,…,k; indicates different types of appliances, Bi in the two decompositions is the same matrix. 
 
 The second step, the matrix reconstruction decomposition module. According to the target formula New_Gi = BiWi using decomposition sub-matrix Bi and Wi
 reconstruct matrix. Assuming that the new matrix has M columns, the first N columns in New_Gi are the reconstructed matrix Xi, then M - N is listed as a separate electrical data decomposed from total electricity data.
