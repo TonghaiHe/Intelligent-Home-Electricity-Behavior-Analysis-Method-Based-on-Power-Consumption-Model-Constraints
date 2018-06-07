@@ -72,7 +72,6 @@ def performance2(G, new_G, k):  #The decomposition performance evaluation functi
 ```
 def run(alpha,beta,gamma,lanmda,n,h_l): #Program entry. We can run the entire program by running this function.
 ```
-```
 ##### Variable introduction
  X = [0] * len(category)#List of data matrix for individual electrical appliances
  
