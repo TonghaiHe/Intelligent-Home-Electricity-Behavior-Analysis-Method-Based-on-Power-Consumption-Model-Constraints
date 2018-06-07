@@ -11,6 +11,14 @@ With the continuous deepening of information technology, the Internet of Things 
 important problems to be solved. 
 #### The Introduction of the Principle of the Algorithm
 Here's the brief introduction of the principle of the algorithm, it can help you understand and use the dlls and software better. Inspired by the work of J. Zico Kolter et al, we propose a novel approach that produces an energy breakdown in homes. The algorithmic approach we present builds upon nonnegative matrix factorization methods that is widely applied in image analysis, text clustering, speech processing and other fields. We consider all the factors and establish a unified decomposition model. Instead, we find that there is a similar connection between different consumers in the mode of power consumption by analyzing the existing data. For example, households with similar total power consumption are more likely to have similar thermal energy consumption as thermal energy consumption accounts for the largest proportion of households in many countries. This has also been confirmed by analyzing dataset. Based on this conclusion , we use the regularization method to add a similar relation matrix called Laplacian matrix to the proposed method for improving the accuracy of energy decomposition.
+
 The basic schematic of this algorithm is shown below.
 ![image](https://github.com/TonghaiHe/Intelligent-Home-Electricity-Behavior-Analysis-Method-Based-on-Power-Consumption-Model-Constraints/blob/master/Picture/pic1.png)
+The entire decomposition process of the algorithm is divided into two steps. 
+
+The first step is the matrix coordination training module. According to the target formula, the training data matrix $$X_i$$ is decomposed into sub-matrix Bi and Ai, the test matrix G is decomposed into Bi and Wi in the same way. It should be noted that the first two decompositions are performed synchronously. Where i = 1,…,k; indicates different types of appliances, Bi in the two decompositions is the same matrix. 
+
+The second step, the matrix reconstruction decomposition module. According to the target formula New_Gi = BiWi using decomposition sub-matrix Bi and Wi
+reconstruct matrix. Assuming that the new matrix has M columns, the first N columns in New_Gi are the reconstructed matrix Xi, then M - N is listed as a separate electrical data decomposed from total electricity data.
+
 
