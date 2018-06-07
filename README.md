@@ -46,4 +46,16 @@ If you want to learn more details of this algorithm, please click here [http://*
 * We proposed a novel method for data decomposition of smart grids, and unified modeling of the methods, given the algorithm flow and operation block diagram, so that readers can easily understand the method, and quickly put the method into use.
 * We fully analyze the interrelationships among the data, discover the problems of consistency and homogeneity among the data, and join the model through regular terms to improve the accuracy of the algorithm.
 * Our method is suitable for ordinary homes with low-frequency sampling meters
+#### Publication
+Yang Zhen, He Tonghai. A data decomposition method for smart grid based on non-negative matrix factorization. National invention patent
+Patent number: 201810052322.9.
+
+Yang Zhen, He Tonghai. Research on smart home electricity consumption behavior analysis method based on power consumption constraints[D]. Beijing University of Technology, 2018.
+
+#### Please Note
+If you use the software or dynamic link library (dll) in your program or research, please indicate that the part of paper and program cites the following paper.
+
+Yang Zhen, He Tonghai. Research on smart home electricity consumption behavior analysis method based on power consumption constraints[D]. Beijing University of Technology, 2018.
+#### Code & Toolbox
+[Github page]()
 
