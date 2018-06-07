@@ -42,4 +42,8 @@ We use the general solution of NMF to solve the optimization function. To ensure
 ![pic6](https://github.com/TonghaiHe/Intelligent-Home-Electricity-Behavior-Analysis-Method-Based-on-Power-Consumption-Model-Constraints/blob/master/Picture/pic6.png)
 
 If you want to learn more details of this algorithm, please click here [http://********](http://www.baidu.com) to view the full paper.
+#### Highlights
+* We proposed a novel method for data decomposition of smart grids, and unified modeling of the methods, given the algorithm flow and operation block diagram, so that readers can easily understand the method, and quickly put the method into use.
+* We fully analyze the interrelationships among the data, discover the problems of consistency and homogeneity among the data, and join the model through regular terms to improve the accuracy of the algorithm.
+* Our method is suitable for ordinary homes with low-frequency sampling meters
 
